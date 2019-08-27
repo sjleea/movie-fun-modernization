@@ -1,7 +1,5 @@
 package org.superbiz.moviefun.moviesapi;
 
-import java.util.Objects;
-
 public class MovieInfo {
     private Long id;
     private String title;
@@ -75,12 +73,12 @@ public class MovieInfo {
     @Override
     public String toString() {
         return "MovieInfo{" +
-                "id=" + id +
-                ", director='" + director + '\'' +
-                ", title='" + title + '\'' +
-                ", year=" + year +
-                ", genre='" + genre + '\'' +
-                ", rating=" + rating +
-                '}';
+            "id=" + id +
+            ", director='" + director + '\'' +
+            ", title='" + title + '\'' +
+            ", year=" + year +
+            ", genre='" + genre + '\'' +
+            ", rating=" + rating +
+            '}';
     }
 }
